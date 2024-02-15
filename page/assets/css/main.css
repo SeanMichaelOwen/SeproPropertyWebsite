@@ -1,0 +1,43 @@
+/* Font */
+@import url("./font.css");
+
+/* root */
+*{
+    margin:0;
+    padding:0;
+}
+
+/* Jumbotron */
+.jumbotron{
+    height: 80vh;
+    display:grid;
+    grid-template-columns:auto;
+    justify-content:center;
+    align-items:center;
+}
+.jumbotron .container{
+    font-family: "Lora", serif;
+    text-align:center;
+}
+.jumbotron .container h1{
+    font-size:5em;
+}
+.jumbotron .container .orange{
+    color:orangered;
+}
+.jumbotron .container .green{
+    color:#598C5D;
+}
+
+
+/* Container Content */
+.container-content{
+    margin-top:3em;
+    padding:2em;
+}
+
+/* Pagination */
+.container-content nav{
+    margin-top:2em;
+}
+
