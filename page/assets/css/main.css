@@ -41,3 +41,16 @@
     margin-top:2em;
 }
 
+.container-content .card{
+    width: 100%;
+    height: fit-content;
+    padding:0px;
+  -webkit-box-shadow: 10px 7px 22px -25px rgba(0, 0, 0, 1);
+-moz-box-shadow: 10px 7px 22px -25px rgba(0, 0, 0, 1);
+box-shadow: 10px 7px 22px -25px rgba(0, 0, 0, 1);
+}
+
+.container-content .card img{
+    object-fit: cover;
+    height: 300px;
+}
